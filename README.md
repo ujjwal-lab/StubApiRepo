@@ -18,6 +18,8 @@ TestNG
 
 Cucumber
 
+log4j
+
 #**IDE**
 
 Eclipse
