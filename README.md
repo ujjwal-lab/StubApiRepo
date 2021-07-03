@@ -5,6 +5,7 @@ This project is written in Java and uses Cucumber(gherkin-BDD) alongwith an open
 #**Prerequisites**
 
 =JDK8 installed
+maven installed
 
 #**Used tools and frameworks**
 
