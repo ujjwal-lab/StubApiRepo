@@ -6,13 +6,14 @@ This project is written in Java and uses Cucumber(gherkin-BDD) alongwith an open
 
 =JDK8 installed
 
-#Used tools and frameworks
+#**Used tools and frameworks**
 
 Rest-Assured
 Maven
 TestNG
 Cucumber
-#IDE
+
+#**IDE**
 
 Eclipse
 
@@ -20,13 +21,15 @@ Install testng in eclipse
 
 Install cucumber plugin for eclipse
 
-#Set Up
+#**Set Up**
 
-Clone this github repo in your local directory. Once clonsed navigate to project space
+Clone this github repo in your local directory. Once clonsed navigate to project space.
+
 cd StubApiAutomation
+
 All the required dependencies are added in POM. No external dependencies required.
 
-#Framework Structure
+#**Framework Structure**
 
 Fetaure Files: Feature files has all the scenarios given in the problem statement. A single feature file 'apitesting.feature' conatins the three scenarios with examples. The feature file has @tag at feature level in order to run the whole feature as well as tags are present at scenairo level to enable execution at scenario level. The feature file is present in location 'src/test/resoucres/featurefiles' .
 
@@ -40,9 +43,9 @@ Utility: Utility classes like CommonMethod Utilityclass are created for common o
 
 LoggerConfig: This class is used to configure logging and various methods that can be used for logging.
 
-#How to execute The test suite can be executed at two level
+#**How to execute The test suite can be executed at two level**
 
-#Prerequisites
+#**Prerequisites**
 
 Since the Apis are Stub Apis, please follow below steps befor running the automation scripts
 
@@ -52,20 +55,20 @@ Since the Apis are Stub Apis, please follow below steps befor running the automa
 
 Once the server has started user can now run the automation test suite
 
-#IDE level
+#**IDE level**
 1. Import the maven project in your IDE.
 2. Run the testng.xml file from the IDE and it will trigger the execution of the feature
 
-#Command line.
+#**Command line.**
 Naviagte to the project repo in your local and run below command. This same command can be used in the CICD tool
 
 mvn clean test
 
-#Reporting The test generate two reports one in HTML and another in .Json format
+#**Reporting** The test generate two reports one in HTML and another in .Json format
 
 Html report : target/cucumber-html-report/index.html
 
 Json report : target/cucumber-reports/cucumber.json
 
-#Log
+#**Log**
 The automation suite generates a log file for all the execution. The log file is present in /Log folder
