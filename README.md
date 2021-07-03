@@ -54,7 +54,7 @@ LoggerConfig: This class is used to configure logging and various methods that c
 
 #**Prerequisites**
 
-Since the Apis are Stub Apis, please follow below steps befor running the automation scripts
+Since the Apis are Stubbed, please follow below steps befor running the automation scripts
 
 1.Clone the repository: https://github.com/auto-user/sampleStubService.git
 
@@ -67,7 +67,8 @@ Once the server has started user can now run the automation test suite
 2. Run the testng.xml file from the IDE and it will trigger the execution of the feature
 
 #**Command line.**
-Naviagte to the project repo in your local and run below command. This same command can be used in the CICD tool
+
+Open command prompt/terminal and navigate to the project folder location. Execute below command. 
 
 mvn clean test
 
