@@ -30,6 +30,8 @@ Install cucumber plugin for eclipse
 
 Clone this github repo https://github.com/ujjwal-lab/StubApiRepo.git in your local directory. Once cloned navigate to project space.
 
+cd StubApiRepo
+
 cd StubApiAutomation
 
 All the required dependencies are added in POM. No external dependencies required.
