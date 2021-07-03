@@ -52,7 +52,6 @@ LoggerConfig: This class is used to configure logging and various methods that c
 
 #**How to execute**
 
-**The test suite can be executed at two level**
 
 #**Prerequisites**
 
@@ -63,6 +62,8 @@ Since the Apis are Stubbed, please follow below steps befor running the automati
 2.On the command prompt, navigate to the cloned repo project and run the following bat command StartStubService.bat This will start the API stub server
 
 Once the server is up, user can now run the automation test suite
+
+**The test suite can be executed at two level**
 
 #**IDE level**
 
