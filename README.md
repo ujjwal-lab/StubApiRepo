@@ -60,7 +60,7 @@ Since the Apis are Stubbed, please follow below steps befor running the automati
 
 2.On the command prompt, navigate to the cloned repo project and run the following bat command StartStubService.bat This will start the API stub server
 
-Once the server has started user can now run the automation test suite
+Once the server is up, user can now run the automation test suite
 
 #**IDE level**
 
