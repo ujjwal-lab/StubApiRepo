@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import com.qa.utils.CommonMethod;
+import com.qa.utils.LoggerConfig;
 import com.qa.utils.Utilityclass;
 
 import io.restassured.RestAssured;
@@ -24,8 +25,11 @@ public class GetApiMethodCall {
 	Response response;
 
 	public void getUri() throws IOException {
-		RestAssured.baseURI = Utilityclass.loadUri();
+		
 
+		RestAssured.baseURI = Utilityclass.loadUri();
+		
+		LoggerConfig.info("Adding Header application Json ");
 		request = RestAssured.given();
 		request.header("Content-Type", "application/json");
 	}
