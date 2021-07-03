@@ -48,7 +48,9 @@ Utility: Utility classes like CommonMethod Utilityclass are created for common o
 
 LoggerConfig: This class is used to configure logging and various methods that can be used for logging.
 
-#**How to execute The test suite can be executed at two level**
+#**How to execute**
+
+**The test suite can be executed at two level**
 
 #**Prerequisites**
 
